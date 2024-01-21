@@ -41,6 +41,7 @@
     background-color: black;
     background-image: url(../img/Ralph_8-bits.webp);
     background-size: cover;
+    cursor: pointer;
 }
 .lives{
     display: flex;
