@@ -2,7 +2,7 @@
 
 .container{
     display: flex;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     background-image: url(../img/pixel-brick-wall-vector-12492931.png);
     background-repeat: repeat;
@@ -29,7 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 63vh;
+    border-radius: 20px;
 }
 .square{
     height: 150px;
@@ -51,4 +52,55 @@
 .lives img{
     height: 30px;
     width: 30px;
+}
+.bottom-panel{
+    padding: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.9));
+}
+#restart{
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 2rem;
+    height: 2.3rem;
+    width: 8rem;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    background-color: #F73F1D;
+    font-family: 'Press Start 2P', sans-serif, 'Comic Sans MS', cursive;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.75);
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+#restart:hover{
+    background-color: #F73F1D;
+    color: #fff;
+}
+#restart:active{
+    background-color: #771100;
+    color: #fff;
+}
+
+.bottom-panel h2{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.bottom-panel li{
+    color: #fff;
+    font-size: 1rem;
+    list-style: none;
+    margin: .1rem .6rem;
 }
